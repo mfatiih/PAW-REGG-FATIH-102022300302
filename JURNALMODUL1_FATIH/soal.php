@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // - Validasi agar nama tidak boleh kosong
     // - Validasi agar nama hanya berupa abjad (Hint : gunakan fungsi preg_match (atau fungsi lainnya))
     // silakan taruh kode kalian di bawah
+    // 
     if (empty($_POST["nama"])) {
         $namaError = "Nama harus diisi.";
     } else {
